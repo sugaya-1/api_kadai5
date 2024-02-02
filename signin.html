@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サインイン</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+    <h1>サインイン</h1>
+
+    <form id="signInForm">
+        <label for="newEmail">Email:</label>
+        <input type="email" id="newEmail" name="newEmail" required><br>
+
+        <label for="newPassword">Password:</label>
+        <input type="password" id="newPassword" name="newPassword" required><br>
+
+        <label for="newName">Name:</label>
+        <input type="text" id="newName" name="newName" required><br>
+
+        <button type="button" onclick="submitSignInForm()">Sign In</button>
+    </form>
+
+    <div id="signInResult"></div>
+
+    <script src="signinScript.js"></script>
+</body>
+</html>
